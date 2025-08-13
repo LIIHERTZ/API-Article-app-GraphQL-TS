@@ -1,0 +1,31 @@
+{
+  "name": "articale-app-graphql-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "build": "tsc",
+    "ts.check": "tsc --project tsconfig.json",
+    "add-build": "git add dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "graphql": "^16.11.0",
+    "md5": "^2.3.0",
+    "mongoose": "^8.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.23",
+    "@types/node": "^24.2.1",
+    "nodemon": "^3.1.10",
+    "pre-commit": "^1.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
